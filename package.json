@@ -1,0 +1,26 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple expense tracker application using Node.js and SQLite.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "expense",
+    "tracker",
+    "node",
+    "sqlite"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.0.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
